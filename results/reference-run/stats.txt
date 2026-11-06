@@ -1,0 +1,15 @@
+Paired comparisons of escalations/episode (episode i, seed s shares exogenous noise across configs).
+Pooled over seeds => episodes within a seed share one trained policy; treat p-values as descriptive,
+and rely on per-seed differences + seed-wise mean/SD for the replication claim.
+
+[paper] C - A: mean diff -12.63 (95% CI -14.40, -10.86), t=-14.04, p=9.8e-35, dz=-0.81, Wilcoxon p=4e-29, per-seed diffs=[-0.72, -19.07, -18.1]
+[paper] C - B: mean diff 45.44 (95% CI 43.42, 47.46), t=44.36, p=1.5e-133, dz=2.56, Wilcoxon p=6.2e-51, per-seed diffs=[40.47, 60.93, 34.92]
+[paper] C - D: mean diff -11.10 (95% CI -13.12, -9.08), t=-10.81, p=3.2e-23, dz=-0.62, Wilcoxon p=7.6e-22, per-seed diffs=[-19.34, -7.49, -6.48]
+[paper] B - A: mean diff -58.07 (95% CI -60.11, -56.03), t=-56.08, p=1e-160, dz=-3.24, Wilcoxon p=6e-51, per-seed diffs=[-41.19, -80.0, -53.02]
+[paper] D - A: mean diff -1.53 (95% CI -3.60, 0.54), t=-1.45, p=0.15, dz=-0.08, Wilcoxon p=0.059, per-seed diffs=[18.62, -11.58, -11.62]
+
+[cost] C - A: mean diff 22.54 (95% CI 21.07, 24.02), t=30.11, p=1.6e-92, dz=1.74, Wilcoxon p=1.5e-50, per-seed diffs=[18.44, 23.18, 26.01]
+[cost] C - B: mean diff 34.41 (95% CI 32.72, 36.10), t=40.04, p=3.7e-122, dz=2.31, Wilcoxon p=6e-51, per-seed diffs=[25.55, 44.48, 33.21]
+[cost] C - D: mean diff 20.72 (95% CI 18.97, 22.47), t=23.29, p=3.7e-69, dz=1.34, Wilcoxon p=6.3e-46, per-seed diffs=[10.03, 28.41, 23.72]
+[cost] B - A: mean diff -11.87 (95% CI -12.78, -10.96), t=-25.55, p=3.7e-77, dz=-1.48, Wilcoxon p=1.3e-50, per-seed diffs=[-7.11, -21.3, -7.2]
+[cost] D - A: mean diff 1.82 (95% CI 1.04, 2.61), t=4.57, p=7.3e-06, dz=0.26, Wilcoxon p=3.9e-05, per-seed diffs=[8.41, -5.23, 2.29]

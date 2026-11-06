@@ -1,0 +1,15 @@
+traffic_density
+horn_events_per_min
+avg_speed
+signal_wait_time
+road_quality_score
+driver_experience_level
+eye_closure_ratio
+heart_rate
+heart_rate_variability
+steering_variability
+stress_index
+weather_condition_Clear
+weather_condition_Foggy
+weather_condition_Night
+weather_condition_Rainy

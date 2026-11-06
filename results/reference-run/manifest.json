@@ -1,0 +1,78 @@
+{
+  "start_time": "2026-11-06T19:05:05+05:30",
+  "end_time": "2026-11-06T19:05:41+05:30",
+  "total_seconds": 36.324,
+  "commands": [
+    "\"C:\\Program Files\\Python313\\python.exe\" C:\\Users\\srija\\OneDrive\\Desktop\\Rough\\emotion-aware-vehicle-research\\run_experiments.py --csv C:\\Users\\srija\\OneDrive\\Desktop\\Rough\\emotion-aware-vehicle-research\\code\\driver_emotion_balanced_15k.csv --out runs\\run_20261106_190505\\results --sweep --workers 4",
+    "\"C:\\Program Files\\Python313\\python.exe\" C:\\Users\\srija\\OneDrive\\Desktop\\Rough\\emotion-aware-vehicle-research\\make_paper_figures.py --results runs\\run_20261106_190505\\results --figdir runs\\run_20261106_190505\\figures"
+  ],
+  "csv_path": "C:\\Users\\srija\\OneDrive\\Desktop\\Rough\\emotion-aware-vehicle-research\\code\\driver_emotion_balanced_15k.csv",
+  "csv_sha256": "d5c358584aec68570e0bc4ef57b4de0510152814232f365c2047bcb17d26ed76",
+  "script_sha256": {
+    "run_experiments.py": "4f3924c23f887e5c09e77464484bf4446561dad3e00af1983831ba56bd517552",
+    "make_paper_figures.py": "71456f15c26c0552f02da84c2adb939ea559a303768448b64a75642c6d030c94",
+    "run_all.py": "8c16c07a42a96535be25265a2d2c2d9add10fb7ce234d0b6a93f25f8ca9d63bd"
+  },
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 24,
+  "package_versions": {
+    "numpy": "2.3.2",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "joblib": "1.5.2"
+  },
+  "file_sha256": {
+    "results": {
+      "action_dist.csv": "4ad22fe8bce6758aa5c2d77ed61eb497206e3ade14d8d53c4ced98329d606bed",
+      "classifier.joblib": "20607bb417cd1d4e5ab96235a10a0ac646bf63e118d064e37d78484c39c7b140",
+      "classifier_metrics.json": "51104edd5dbc2f80e3cdf64268d3e5749c8e4c5db2cf45585810fdc417cc4556",
+      "confusion_matrix.csv": "4ae6a3d22634d4c8a43fc3c1a1fc92e976ac65d433f3bed4c11bfb14196a4e03",
+      "environment.json": "ac534a5043e9afd6d1538ad20047d037fe16100c755676e913dcafba2c165fa5",
+      "eval_episodes.csv": "270fda05a0102a3454ec8d0587ac2ebc4b740fbe7c8d72cc6c2e152796394d7a",
+      "features.txt": "70eadd8bb884ec0bf4f57392cc6dc4ca30ea584e4e8e88c1846ff2229c83d4de",
+      "fig_alerts_by_emotion_cost.png": "35327b5bb192df16d0e0b62d3daac10d22db57bfd00085c27abd31835a3e6712",
+      "fig_alerts_by_emotion_paper.png": "a5d6d3caff2c33da7ea05663568aafc3a58ff11fe3945cb3111da3cbf9fe28bd",
+      "fig_confusion_matrix.png": "08804e11bb7e782d279e480b36d2172140920051bfbdc2f154f15042467a8816",
+      "fig_eval_alerts_cost.png": "81c25004c7105777566d33e5776f89c47bba5bce0295894d235c9268b111de34",
+      "fig_eval_alerts_paper.png": "e5ad0867e9c18d06d45e0f1a8f8987825fe7921c82e6848178e9b3ba7d354220",
+      "fig_relative_change_cost.png": "6647c0f9d31d4770ab49ccebe4f4f5f42534d1f493f3254f1c22c1f0e297a652",
+      "fig_relative_change_paper.png": "5eee49f8ad8876a8c7297d713ba6244436dfac68483376c6c35778201b19754a",
+      "fig_return_distribution_cost.png": "53fb700b37c8e97bff0afa3850032209aa2244dedc9495addd62a50719246cde",
+      "fig_return_distribution_paper.png": "091c2cf8fdf0c5a81bd4e44bd578acdb56f876bb4a906244add86fad3a702c55",
+      "fig_train_alerts_cost.png": "505ed12c4428f611d731772e4f87a53b497acc3dcdab58451b9e2a6b36d2bc6a",
+      "fig_train_alerts_paper.png": "82b1304adf4d8fd28ec4246918e12dde7c8d69ace72a0d81e4edff3a1f605f40",
+      "fig_train_envreturn_cost.png": "083ad2b6a97728ef290c5b5b5ae70dd2ab7808b3ae505a5477136613d2915fde",
+      "fig_train_envreturn_paper.png": "735d35915c2726d7c80ec7d7c55b17557b14b25bc9cb75d5f81284869476b4b6",
+      "hyperparams.json": "c977b095d65b113747ed3e491e6c546cb45bc3ad74b72f008e714424f1cec139",
+      "latency.csv": "cc2afa0d0ab76efc48377ee9327b9a620931df007e884d04595cb8693428a9dd",
+      "low_conf.csv": "274fa96cad2eff93215e8e9d2138dcc6ea1944886bfc0d45f1988ad89dfa5ef5",
+      "per_emotion.csv": "ec037e803be698185ab50f8f132f579b22d5880c1431c5e7bb036b974329da65",
+      "policy_C.csv": "97bfd9565c2bff88bf8f1fc7382ff8da52dc76bb5ef2a643703eba920f712399",
+      "pool.npz": "d32d765f5b46bba6d1ba1482220982a904ecf105c848c4d073ab2792eb0e56f0",
+      "q_tables.npz": "76fe6b66f391786d2885a52c39a0a0d5e9d8e6748482b7918265cc247db4bda8",
+      "qvalues_highrisk.csv": "44e4dec754dce55c6adfb15e02882a124e4f905d288785a93e989354005ad897",
+      "results_report.md": "f2e90ad108e1369888d08d91f86f8ccdce5a3f30d1b2c78749ef794e8c061f9c",
+      "stabilisation.csv": "f53b4edfc59f48c821b994d5a0e5bd158fea49288bf5980c29226f1f2c9b4daf",
+      "stats.txt": "ff82b8702f8ac84ad12659535a7acd6c0b55688c47b37741b465334236dd7861",
+      "summary.csv": "7baf81ff8b081f253e681ba047a3925176cb6138d35b7d7956bfd19c2db78309",
+      "sweep_rows.tex": "c34e946ba591b9b5efbc96d62b376d68bbfe57bd8bd2421e3e55d4df6aaad3d9",
+      "sweep_rows_cost.tex": "157073304ce54c9c5fc3c869b6d35dc9d4137a57fa223289322e8a7a6ccb21a0",
+      "sweep_rows_paper.tex": "4921d20fa98f5690aa4c7b3a0318d6d8d3219b3ef0947d72f9e2ddf2331c1c04",
+      "tables.tex": "f20b9d2fa546a526431307c76c7972c4dd241baa7abb2f2ae7e09f3701d76816",
+      "train_curves.csv": "45d316958dd4a85c522590e6cc9dcbb78c55fcb1a7a5e6da5d043759858b3e8a"
+    },
+    "figures": {
+      "alert_change_proposed_vs_safety_only.png": "081ab6918f76895410262b0f62b3fb28c0153c0ae7ce55b3becbe5449913bb03",
+      "alert_rate_by_driver_emotion.png": "6018c38bea6a842f5ff1fddec8ed02cf0959cd3a9f4bfcb39c7ed141953cbd00",
+      "emotion_classifier_confusion_matrix.png": "5b23e6588c214d1d9b434276303a69400517af79e5eb6ab3ebb77131a031e02c",
+      "evaluation_mean_alert_escalations.png": "1204ff4efc42818a76f0e9fa85821a2a41e1b525e909a3c294b78bcaa9b699ed",
+      "safety_return_distribution.png": "61a3e0b56613979eac389040e3f8be47d153382387e908b076071eb3882a6659",
+      "training_alert_escalation_curves.png": "678665cfc4f5495368a8c5426729536b0730b8aaa36ea07c39c701cc194f2547",
+      "training_return_curves.png": "48cead5bf23403a34c13b98518d62ceaaf268314fd27d5c54a09a7d42cdf4285",
+      "training_safety_return_curves.png": "bbac8c2e11f99122267d19013da6247cbbc336c6ccf95e05bce28f690c5f9e2f"
+    }
+  }
+}

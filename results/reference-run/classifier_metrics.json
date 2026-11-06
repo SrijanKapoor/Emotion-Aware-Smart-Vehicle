@@ -1,0 +1,124 @@
+{
+  "features": [
+    "traffic_density",
+    "horn_events_per_min",
+    "avg_speed",
+    "signal_wait_time",
+    "road_quality_score",
+    "driver_experience_level",
+    "eye_closure_ratio",
+    "heart_rate",
+    "heart_rate_variability",
+    "steering_variability",
+    "stress_index",
+    "weather_condition_Clear",
+    "weather_condition_Foggy",
+    "weather_condition_Night",
+    "weather_condition_Rainy"
+  ],
+  "n_total": 15000,
+  "seed": 42,
+  "split_sizes": {
+    "train": 10500,
+    "val": 2250,
+    "test": 2250
+  },
+  "class_counts": {
+    "all": {
+      "Calm": 3750,
+      "Stressed": 3750,
+      "Fatigued": 3750,
+      "Overloaded": 3750
+    },
+    "train": {
+      "Calm": 2625,
+      "Stressed": 2625,
+      "Fatigued": 2625,
+      "Overloaded": 2625
+    },
+    "val": {
+      "Calm": 562,
+      "Stressed": 563,
+      "Fatigued": 562,
+      "Overloaded": 563
+    },
+    "test": {
+      "Calm": 563,
+      "Stressed": 562,
+      "Fatigued": 563,
+      "Overloaded": 562
+    }
+  },
+  "accuracy_train": 0.9279047619047619,
+  "accuracy_val": 0.9253333333333333,
+  "accuracy_test": 0.9266666666666666,
+  "macro_f1_test": 0.926407502394943,
+  "report_test": {
+    "Calm": {
+      "precision": 0.9441441441441442,
+      "recall": 0.9307282415630551,
+      "f1-score": 0.9373881932021467,
+      "support": 563.0
+    },
+    "Stressed": {
+      "precision": 0.8720292504570384,
+      "recall": 0.8487544483985765,
+      "f1-score": 0.8602344454463481,
+      "support": 562.0
+    },
+    "Fatigued": {
+      "precision": 0.9787610619469026,
+      "recall": 0.9822380106571936,
+      "f1-score": 0.9804964539007093,
+      "support": 563.0
+    },
+    "Overloaded": {
+      "precision": 0.9108061749571184,
+      "recall": 0.9448398576512456,
+      "f1-score": 0.9275109170305676,
+      "support": 562.0
+    },
+    "accuracy": 0.9266666666666666,
+    "macro avg": {
+      "precision": 0.9264351578763008,
+      "recall": 0.9266401395675177,
+      "f1-score": 0.926407502394943,
+      "support": 2250.0
+    },
+    "weighted avg": {
+      "precision": 0.9264662844942292,
+      "recall": 0.9266666666666666,
+      "f1-score": 0.9264364222359709,
+      "support": 2250.0
+    }
+  },
+  "confusion_test": [
+    [
+      524,
+      39,
+      0,
+      0
+    ],
+    [
+      25,
+      477,
+      12,
+      48
+    ],
+    [
+      6,
+      0,
+      553,
+      4
+    ],
+    [
+      0,
+      31,
+      0,
+      531
+    ]
+  ],
+  "accuracy_test_without_stress_index": 0.928,
+  "pool_accuracy": 0.926,
+  "pool_low_confidence_share": 0.06266666666666666
+}

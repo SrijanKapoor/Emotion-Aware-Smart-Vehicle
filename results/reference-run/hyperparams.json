@@ -1,0 +1,55 @@
+{
+  "alpha": 0.1,
+  "gamma": 0.9,
+  "eps0": 1.0,
+  "eps_min": 0.01,
+  "eps_decay": 0.995,
+  "train_episodes": 1000,
+  "steps": 100,
+  "eval_episodes": 100,
+  "seeds": [
+    42,
+    123,
+    999
+  ],
+  "alert_cost": [
+    0.0,
+    -0.2,
+    -0.4,
+    -0.6
+  ],
+  "alert_eff": [
+    0.0,
+    0.15,
+    0.3,
+    0.55
+  ],
+  "emo_mult": [
+    1.0,
+    0.8,
+    0.6,
+    0.4
+  ],
+  "base_clear": 0.1,
+  "near_base": 0.1,
+  "near_speed": 0.06,
+  "assist_slow": 0.5,
+  "stay": 0.92,
+  "stay_overload": 0.97,
+  "accept": {
+    "Calm": [
+      "Low"
+    ],
+    "Stressed": [
+      "Medium",
+      "High"
+    ],
+    "Fatigued": [
+      "Assistance"
+    ],
+    "Overloaded": [
+      "Low",
+      "Medium"
+    ]
+  }
+}
